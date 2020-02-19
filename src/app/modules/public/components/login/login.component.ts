@@ -5,6 +5,9 @@ import { catchError, map } from 'rxjs/operators';
 import { throwError, Observable } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 
+const STALL_ID = 'STA3';
+const IDEA_ID = 'IDE22';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
