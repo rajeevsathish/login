@@ -5,9 +5,6 @@ import { catchError, map } from 'rxjs/operators';
 import { throwError, Observable } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 
-const STALL_ID = 'creation_2';
-const IDEA_ID = 'crossword';
-
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -167,7 +164,7 @@ export class LoginComponent implements OnInit {
 
   gotoWorkspace() {
     this.openSuccessModal = false;
-    window.open(`http://localhost:8080/demo?userId=${this.userId}&userName=${this.name}`,'_self');
+    window.open(`https://diksha.gov.in/play/content/do_31251452603195392025120?dialCode=H2H2D7&l1Parent=do_31255360309049753614214&userId=${this.userId}&userName=${this.name}`,'_self');
   }
 
   closeModal() {

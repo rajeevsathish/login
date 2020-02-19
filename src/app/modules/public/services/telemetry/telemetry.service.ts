@@ -7,8 +7,8 @@ import { UUID } from 'angular2-uuid';
   providedIn: 'root'
 })
 export class TelemetryService {
-  public stallId;
-  public ideaId;
+  public stallId='STA3';
+  public ideaId='IDE22';
   public did;
   http: HttpClient;
   baseUrl = 'https://devcon.sunbirded.org/';
