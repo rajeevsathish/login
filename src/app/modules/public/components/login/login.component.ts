@@ -167,7 +167,7 @@ export class LoginComponent implements OnInit {
 
   gotoWorkspace() {
     this.openSuccessModal = false;
-    window.open(`http://localhost:8080/hangman?userId=${this.userId}&userName=${this.name}`,'_self');
+    window.open(`http://localhost:8080/demo?userId=${this.userId}&userName=${this.name}`,'_self');
   }
 
   closeModal() {
