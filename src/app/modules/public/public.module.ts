@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { PublicRoutingModule } from './public-routing.module';
 import {SuiDropdownModule, SuiDimmerModule} from 'ng2-semantic-ui';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import {SuiDropdownModule, SuiDimmerModule} from 'ng2-semantic-ui';
     PublicRoutingModule,
     HttpClientModule,
     SuiDropdownModule,
-    SuiDimmerModule
+    SuiDimmerModule,
+    FormsModule
   ],
   declarations: [LoginComponent]
 })
